@@ -1,0 +1,35 @@
+//
+//  JKShare.pch
+//  JKRM-iOS-CodeRepository
+//
+//  Created by 王立广 on 15/10/19.
+//  Copyright © 2015年 王立广. All rights reserved.
+//
+
+#pragma  mark -第三方库的导入
+#import "AFNetworking.h"
+#import "MJRefresh.h"
+
+
+#pragma mark 第三方功能框架
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <Bugtags/Bugtags.h>
+#import "MagicalRecord.h"
+#import "MJExtension.h"
+
+#pragma mark GG的工具类
+#import "Interface.h"
+#import "ViewModelClass.h"            //接口处理
+#import "UIViewExt.h"                 //快速获取各控件的位置属性
+#import "MBProgressHUD+MJ.h"          //MBProgress的category(来自李明杰)
+#import "GGBackShdow.h"               //黑色背景（尚不完善）
+#import "UConstants.h"                //常用的宏定义
+#import "UIScrollView+EmptyDataSet.h" //UIScroll的置空，利用该类封装了一个的表格控制器
+#import "GGNetworkJudge.h"            //基于AFN的网络判断
+#import "GGLocationTool.h"            //基于百度地图的定位
+#import "DateTool.h"                  //处理日期（来自宋老板）
+#import "NSString+Extension.h"        //正则表达式
+#import "DAKeyboardControl.h"         //让键盘随下拉手势下滑
+#import "GGChangeTypeView.h"          //类型选择试图（稍后配上gif图片）
+#import "GGRequest.h"                 //基于AFN的网络请求
+#import "ViewModelClass.h"            //MVVM逻辑层的根类
