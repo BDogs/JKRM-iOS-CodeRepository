@@ -10,6 +10,18 @@
 		229FC2D07D7A931E5AEFD0C9 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 140F29592B57E4948DC98AA2 /* Pods.framework */; };
 		C6809F121BD61D11008B2234 /* GGRequestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C6809F111BD61D11008B2234 /* GGRequestVC.m */; settings = {ASSET_TAGS = (); }; };
 		C6809F151BD6216A008B2234 /* GGRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C6809F141BD6216A008B2234 /* GGRequest.m */; settings = {ASSET_TAGS = (); }; };
+		C680A1CD1BD78CB1008B2234 /* GGDateManageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C680A1CC1BD78CB1008B2234 /* GGDateManageVC.m */; settings = {ASSET_TAGS = (); }; };
+		C680A1D31BD8651A008B2234 /* GGCustomDefineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C680A1D21BD8651A008B2234 /* GGCustomDefineVC.m */; settings = {ASSET_TAGS = (); }; };
+		C680A1D61BD88AC2008B2234 /* GGGetFrameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C680A1D51BD88AC2008B2234 /* GGGetFrameVC.m */; settings = {ASSET_TAGS = (); }; };
+		C680A1D91BD8AC61008B2234 /* GGRegularExpressionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C680A1D81BD8AC61008B2234 /* GGRegularExpressionVC.m */; settings = {ASSET_TAGS = (); }; };
+		C680A1DC1BD8B0FB008B2234 /* GGEmptyTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C680A1DB1BD8B0FB008B2234 /* GGEmptyTableVC.m */; settings = {ASSET_TAGS = (); }; };
+		C680A1E01BD8B687008B2234 /* emptyImg.png in Resources */ = {isa = PBXBuildFile; fileRef = C680A1DF1BD8B687008B2234 /* emptyImg.png */; settings = {ASSET_TAGS = (); }; };
+		C680A20B1BD8BA72008B2234 /* VipCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C680A1F41BD8BA72008B2234 /* VipCardModel.m */; settings = {ASSET_TAGS = (); }; };
+		C680A20D1BD8BA72008B2234 /* VipCardHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = C680A1FA1BD8BA72008B2234 /* VipCardHeadView.m */; settings = {ASSET_TAGS = (); }; };
+		C680A2111BD8BA72008B2234 /* VIpCardHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C680A2021BD8BA72008B2234 /* VIpCardHomePageViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C680A2141BD8BA72008B2234 /* VipCardViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C680A2091BD8BA72008B2234 /* VipCardViewModel.m */; settings = {ASSET_TAGS = (); }; };
+		C680A2171BD8C3CE008B2234 /* GGRACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C680A2161BD8C3CE008B2234 /* GGRACViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C680A21A1BD8CEB2008B2234 /* GGInterfaceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C680A2191BD8CEB2008B2234 /* GGInterfaceVC.m */; settings = {ASSET_TAGS = (); }; };
 		C6C3BEF11BD4B04B007243DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C3BEF01BD4B04B007243DC /* main.m */; };
 		C6C3BEF41BD4B04B007243DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C3BEF31BD4B04B007243DC /* AppDelegate.m */; };
 		C6C3BEFC1BD4B04B007243DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6C3BEFB1BD4B04B007243DC /* Assets.xcassets */; };
@@ -60,6 +72,29 @@
 		C6809F111BD61D11008B2234 /* GGRequestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGRequestVC.m; sourceTree = "<group>"; };
 		C6809F131BD6216A008B2234 /* GGRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGRequest.h; sourceTree = "<group>"; };
 		C6809F141BD6216A008B2234 /* GGRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGRequest.m; sourceTree = "<group>"; };
+		C680A1CB1BD78CB1008B2234 /* GGDateManageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGDateManageVC.h; sourceTree = "<group>"; };
+		C680A1CC1BD78CB1008B2234 /* GGDateManageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGDateManageVC.m; sourceTree = "<group>"; };
+		C680A1D11BD8651A008B2234 /* GGCustomDefineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGCustomDefineVC.h; sourceTree = "<group>"; };
+		C680A1D21BD8651A008B2234 /* GGCustomDefineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGCustomDefineVC.m; sourceTree = "<group>"; };
+		C680A1D41BD88AC2008B2234 /* GGGetFrameVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGGetFrameVC.h; sourceTree = "<group>"; };
+		C680A1D51BD88AC2008B2234 /* GGGetFrameVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGGetFrameVC.m; sourceTree = "<group>"; };
+		C680A1D71BD8AC61008B2234 /* GGRegularExpressionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGRegularExpressionVC.h; sourceTree = "<group>"; };
+		C680A1D81BD8AC61008B2234 /* GGRegularExpressionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGRegularExpressionVC.m; sourceTree = "<group>"; };
+		C680A1DA1BD8B0FB008B2234 /* GGEmptyTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGEmptyTableVC.h; sourceTree = "<group>"; };
+		C680A1DB1BD8B0FB008B2234 /* GGEmptyTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGEmptyTableVC.m; sourceTree = "<group>"; };
+		C680A1DF1BD8B687008B2234 /* emptyImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptyImg.png; sourceTree = "<group>"; };
+		C680A1F31BD8BA72008B2234 /* VipCardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VipCardModel.h; sourceTree = "<group>"; };
+		C680A1F41BD8BA72008B2234 /* VipCardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VipCardModel.m; sourceTree = "<group>"; };
+		C680A1F91BD8BA72008B2234 /* VipCardHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VipCardHeadView.h; sourceTree = "<group>"; };
+		C680A1FA1BD8BA72008B2234 /* VipCardHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VipCardHeadView.m; sourceTree = "<group>"; };
+		C680A2011BD8BA72008B2234 /* VIpCardHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIpCardHomePageViewController.h; sourceTree = "<group>"; };
+		C680A2021BD8BA72008B2234 /* VIpCardHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIpCardHomePageViewController.m; sourceTree = "<group>"; };
+		C680A2081BD8BA72008B2234 /* VipCardViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VipCardViewModel.h; sourceTree = "<group>"; };
+		C680A2091BD8BA72008B2234 /* VipCardViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VipCardViewModel.m; sourceTree = "<group>"; };
+		C680A2151BD8C3CE008B2234 /* GGRACViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGRACViewController.h; sourceTree = "<group>"; };
+		C680A2161BD8C3CE008B2234 /* GGRACViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGRACViewController.m; sourceTree = "<group>"; };
+		C680A2181BD8CEB2008B2234 /* GGInterfaceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGInterfaceVC.h; sourceTree = "<group>"; };
+		C680A2191BD8CEB2008B2234 /* GGInterfaceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGInterfaceVC.m; sourceTree = "<group>"; };
 		C6C3BEEC1BD4B04B007243DC /* JKRM-iOS-CodeRepository.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JKRM-iOS-CodeRepository.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6C3BEF01BD4B04B007243DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C6C3BEF21BD4B04B007243DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -156,6 +191,53 @@
 				140F29592B57E4948DC98AA2 /* Pods.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C680A1E41BD8B8FF008B2234 /* MVVMDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C680A1F01BD8BA72008B2234 /* Model */,
+				C680A1F51BD8BA72008B2234 /* ViewController */,
+				C680A2071BD8BA72008B2234 /* ViewModel */,
+			);
+			path = MVVMDemo;
+			sourceTree = "<group>";
+		};
+		C680A1F01BD8BA72008B2234 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C680A1F31BD8BA72008B2234 /* VipCardModel.h */,
+				C680A1F41BD8BA72008B2234 /* VipCardModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C680A1F51BD8BA72008B2234 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C680A1F61BD8BA72008B2234 /* View */,
+				C680A2011BD8BA72008B2234 /* VIpCardHomePageViewController.h */,
+				C680A2021BD8BA72008B2234 /* VIpCardHomePageViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C680A1F61BD8BA72008B2234 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C680A1F91BD8BA72008B2234 /* VipCardHeadView.h */,
+				C680A1FA1BD8BA72008B2234 /* VipCardHeadView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C680A2071BD8BA72008B2234 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C680A2081BD8BA72008B2234 /* VipCardViewModel.h */,
+				C680A2091BD8BA72008B2234 /* VipCardViewModel.m */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		C6C3BEE31BD4B04B007243DC = {
@@ -396,6 +478,7 @@
 		C6C3BFB71BD4B20E007243DC /* UIScrollIViewEmptyMode */ = {
 			isa = PBXGroup;
 			children = (
+				C680A1DF1BD8B687008B2234 /* emptyImg.png */,
 				C6C3BFB81BD4B20E007243DC /* UIScrollView+EmptyDataSet.h */,
 				C6C3BFB91BD4B20E007243DC /* UIScrollView+EmptyDataSet.m */,
 			);
@@ -426,6 +509,21 @@
 				C6C3BFDD1BD4BF11007243DC /* GGDemoViewController.m */,
 				C6809F101BD61D11008B2234 /* GGRequestVC.h */,
 				C6809F111BD61D11008B2234 /* GGRequestVC.m */,
+				C680A1CB1BD78CB1008B2234 /* GGDateManageVC.h */,
+				C680A1CC1BD78CB1008B2234 /* GGDateManageVC.m */,
+				C680A1D11BD8651A008B2234 /* GGCustomDefineVC.h */,
+				C680A1D21BD8651A008B2234 /* GGCustomDefineVC.m */,
+				C680A1D41BD88AC2008B2234 /* GGGetFrameVC.h */,
+				C680A1D51BD88AC2008B2234 /* GGGetFrameVC.m */,
+				C680A1D71BD8AC61008B2234 /* GGRegularExpressionVC.h */,
+				C680A1D81BD8AC61008B2234 /* GGRegularExpressionVC.m */,
+				C680A1DA1BD8B0FB008B2234 /* GGEmptyTableVC.h */,
+				C680A1DB1BD8B0FB008B2234 /* GGEmptyTableVC.m */,
+				C680A2151BD8C3CE008B2234 /* GGRACViewController.h */,
+				C680A2161BD8C3CE008B2234 /* GGRACViewController.m */,
+				C680A2181BD8CEB2008B2234 /* GGInterfaceVC.h */,
+				C680A2191BD8CEB2008B2234 /* GGInterfaceVC.m */,
+				C680A1E41BD8B8FF008B2234 /* MVVMDemo */,
 			);
 			path = GGExpendDemo;
 			sourceTree = "<group>";
@@ -539,6 +637,7 @@
 			files = (
 				C6C3BEFF1BD4B04B007243DC /* LaunchScreen.storyboard in Resources */,
 				C6C3BEFC1BD4B04B007243DC /* Assets.xcassets in Resources */,
+				C680A1E01BD8B687008B2234 /* emptyImg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,25 +711,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6809F121BD61D11008B2234 /* GGRequestVC.m in Sources */,
+				C680A21A1BD8CEB2008B2234 /* GGInterfaceVC.m in Sources */,
+				C680A1DC1BD8B0FB008B2234 /* GGEmptyTableVC.m in Sources */,
 				C6C3BFCB1BD4B20E007243DC /* RegexKitLite.m in Sources */,
+				C680A1D31BD8651A008B2234 /* GGCustomDefineVC.m in Sources */,
 				C6C3BFBD1BD4B20E007243DC /* GGBackShdow.m in Sources */,
 				C6C3BFC31BD4B20E007243DC /* UIViewExt.m in Sources */,
 				C6C3BFC11BD4B20E007243DC /* DateTool.m in Sources */,
 				C6809F151BD6216A008B2234 /* GGRequest.m in Sources */,
 				C6C3BFBF1BD4B20E007243DC /* DAKeyboardControl.m in Sources */,
+				C680A2141BD8BA72008B2234 /* VipCardViewModel.m in Sources */,
 				C6C3BFDA1BD4BCB2007243DC /* JKCodeRepositoryViewController.m in Sources */,
 				C6C3BFC61BD4B20E007243DC /* MBProgressHUD+MJ.m in Sources */,
 				C6C3BFC91BD4B20E007243DC /* README.md in Sources */,
 				C6C3BFC01BD4B20E007243DC /* DateModel.m in Sources */,
+				C680A2111BD8BA72008B2234 /* VIpCardHomePageViewController.m in Sources */,
 				C6C3BEF41BD4B04B007243DC /* AppDelegate.m in Sources */,
 				C6C3BFD01BD4B20E007243DC /* UIEmptyTableViewController.m in Sources */,
 				C6C3BFD21BD4B20E007243DC /* ViewModelClass.m in Sources */,
+				C680A1CD1BD78CB1008B2234 /* GGDateManageVC.m in Sources */,
+				C680A2171BD8C3CE008B2234 /* GGRACViewController.m in Sources */,
+				C680A1D61BD88AC2008B2234 /* GGGetFrameVC.m in Sources */,
 				C6C3BFC41BD4B20E007243DC /* GGLocationTool.m in Sources */,
 				C6C3BFCA1BD4B20E007243DC /* NSString+Extension.m in Sources */,
+				C680A20D1BD8BA72008B2234 /* VipCardHeadView.m in Sources */,
 				C6C3BFBE1BD4B20E007243DC /* GGChangeTypeView.m in Sources */,
 				C6C3BFC51BD4B20E007243DC /* GGNetworkJudge.m in Sources */,
 				C6C3BFDE1BD4BF11007243DC /* GGDemoViewController.m in Sources */,
 				C6C3BEF11BD4B04B007243DC /* main.m in Sources */,
+				C680A20B1BD8BA72008B2234 /* VipCardModel.m in Sources */,
+				C680A1D91BD8AC61008B2234 /* GGRegularExpressionVC.m in Sources */,
 				C6C3BFC81BD4B20E007243DC /* HttpTool.m in Sources */,
 				C6C3BFD11BD4B20E007243DC /* UIScrollView+EmptyDataSet.m in Sources */,
 			);

@@ -20,7 +20,7 @@
  *  @param success      请求成功后调用
  *  @param failure      请求失败后调用
  */
-+ (void)sendGetOrPostRequest:(NSString *)url param:(NSMutableDictionary *)param requestStyle:(NSInteger)requestStyle setSerializer:(NSInteger)serializer success:(void (^)(id data))success
++ (void)sendGetOrPostRequest:(NSString *)url param:(NSMutableDictionary *)param requestStyle:(NSInteger)requestStyle setReturnType:(NSInteger)serializer success:(void (^)(id data))success
                    failure:(void (^)(NSError *error))failure
 {
     

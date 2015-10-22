@@ -19,15 +19,17 @@
  *
  *  @return
  */
-- (NSString *)cacheTheCurentTimeFromNowWithTheTime:(NSNumber *)theTime;
 + (NSString *)sendTheCurentTimeFromNowWithTheTime:(NSNumber *)theTime;
+- (NSString *)cacheTheCurentTimeFromNowWithTheTime:(NSNumber *)theTime;
+
 /**
  *  获取当前时间的格式串
  *
  *  @return 
  */
-- (NSString *)cacheTheTimeStrAtNow;
-+ (NSString *)sendTheTimeStrAtNow;
++ (NSString *)sendTheTimeStrAtNow:(NSString *)fromatStr;
+- (NSString *)cacheTheTimeStrAtNow:(NSString *)fromatStr;
+
 /**
  *  毫秒转年月日
  *
@@ -35,19 +37,21 @@
  *
  *  @return 
  */
-- (NSString *)cacheTheTimeStrWithTheSecond:(NSNumber *)theSecond;
-+ (NSString *)sendTheTimeStrWithTheSecond:(NSNumber *)theSecond;
++ (NSString *)sendTheTimeStrWithTheSecond:(NSNumber *)theSecond WithFormatStr:(NSString *)formatStr;
+- (NSString *)cacheTheTimeStrWithTheSecond:(NSNumber *)theSecond WithFormatStr:(NSString *)formatStr;
+
 /**
  *  判断是否为新(24小时)
  */
-- (BOOL)cacheTheBoolOfNewWithTheSecond:(NSNumber *)theSecond;
 + (BOOL)sendTheBoolOfNewWithTheSecond:(NSNumber *)theSecond;
+- (BOOL)cacheTheBoolOfNewWithTheSecond:(NSNumber *)theSecond;
+
 /**
  *  返回age
  */
-
-- (NSString *)cacheTheAgeStrWithTheSecond:(NSNumber *)theSecond;
 + (NSString *)sendTheAgeStrWithTheSecond:(NSNumber *)theSecond;
+- (NSString *)cacheTheAgeStrWithTheSecond:(NSNumber *)theSecond;
+
 
 /**
  *  获取年月日星期

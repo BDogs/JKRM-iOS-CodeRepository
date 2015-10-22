@@ -21,25 +21,33 @@
     self.view.backgroundColor = [UIColor whiteColor];
 
     
-    [self loadRequest];
+    UIButton *requestBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [requestBtn setTitle:@"基于AFN封装网络请求类演示" forState:UIControlStateNormal];
+    requestBtn.frame = CGRectMake((Main_Screen_Width-230)/2, 100, 230, 40);
+    requestBtn.backgroundColor = [UIColor grayColor];
+    [requestBtn addTarget:self action:@selector(clickAFNBtn) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:requestBtn];
+    
+    
 }
 
-- (void)loadRequest{
+#pragma mark 利用AFN封装的网络请求类演示
+- (void)clickAFNBtn{
     
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
     
     dict[@"dartId"] = @"263821048543246";
     dict[@"startNum"] = @(0);
 
-    [GGRequest sendGetOrPostRequest:@"http://boss.kingvic.cn/api/app/findDartcommentAndCdlShort" param:dict requestStyle:kGET setSerializer:kJSON success:^(id data) {
+    [GGRequest sendGetOrPostRequest:@"http://boss.kingvic.cn/api/app/findDartcommentAndCdlShort" param:dict requestStyle:kGET setReturnType:kPOST success:^(id data) {
         
         DLog(@"%@",data);
         
     } failure:^(NSError *error) {
         
         DLog(@"请求失败==%@",error);
-        
     }];
+        
 }
 
 

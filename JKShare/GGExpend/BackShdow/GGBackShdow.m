@@ -30,7 +30,6 @@ singleton_implementation(GGBackShdow);
     self.alpha = kAlpha;
     
     self.frame = CGRectMake(0, 64, Main_Screen_Width, Main_Screen_Height-64);
-    
 
 }
 

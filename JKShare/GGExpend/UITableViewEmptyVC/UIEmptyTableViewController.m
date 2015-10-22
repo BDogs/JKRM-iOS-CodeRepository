@@ -33,21 +33,21 @@
 - (NSAttributedString *)buttonTitleForEmptyDataSet:(UIScrollView *)scrollView forState:(UIControlState)state
 {
     
-    if([GGNetworkJudge sharedGGNetworkJudge].shouldHaveNet == YES)
-    {
-        NSMutableAttributedString *titleAttributeString = [[NSMutableAttributedString alloc]initWithString:@"暂无相关资讯，点击重新加载"];
+//    if([GGNetworkJudge sharedGGNetworkJudge].shouldHaveNet == YES)
+//    {
+        NSMutableAttributedString *titleAttributeString = [[NSMutableAttributedString alloc]initWithString:@"无数据,点击刷新"];
         [titleAttributeString addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:18] range:NSMakeRange(0, titleAttributeString.length)];
         
         return titleAttributeString;
         
-    }
-    else
-    {
-        NSMutableAttributedString *titleAttributeString = [[NSMutableAttributedString alloc]initWithString:@"网络连接失败,请检查网络,点击重新加载"];
-        [titleAttributeString addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:18] range:NSMakeRange(0, titleAttributeString.length)];
-        
-        return titleAttributeString;
-    }
+//    }
+//    else
+//    {
+//        NSMutableAttributedString *titleAttributeString = [[NSMutableAttributedString alloc]initWithString:@"网络连接失败,请检查网络,点击重新加载"];
+//        [titleAttributeString addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:18] range:NSMakeRange(0, titleAttributeString.length)];
+//        
+//        return titleAttributeString;
+//    }
     
     
     
@@ -55,7 +55,7 @@
 
 - (UIImage *)imageForEmptyDataSet:(UIScrollView *)scrollView
 {
-    return [UIImage imageNamed:@"One_Piece"];
+    return [UIImage imageNamed:@"emptyImg.png"];
 }
 
 

@@ -19,6 +19,8 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
+    self.title = @"金凯瑞铭-iOS-技术分享";
+    
     
     //广广分享
     UIButton *ggShareBtn = [UIButton buttonWithType:UIButtonTypeCustom];

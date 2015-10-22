@@ -46,37 +46,37 @@
     return [dTool cacheTheCurentTimeFromNowWithTheTime:theTime];
 }
 
-- (NSString *)cacheTheTimeStrAtNow
+- (NSString *)cacheTheTimeStrAtNow:(NSString *)fromatStr
 {
     NSDate *nowDate = [NSDate date];
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-    [formatter setDateFormat:@"yyyy-MM-dd"];
+    [formatter setDateFormat:fromatStr];
     NSString *result = [formatter stringFromDate:nowDate];
     return result;
     
 }
 
-+ (NSString *)sendTheTimeStrAtNow
++ (NSString *)sendTheTimeStrAtNow:(NSString *)fromatStr
 {
     DateTool *dTool = [[DateTool alloc] init];
-    return [dTool cacheTheTimeStrAtNow];
+    return [dTool cacheTheTimeStrAtNow:fromatStr];
 }
 
-- (NSString *)cacheTheTimeStrWithTheSecond:(NSNumber *)theSecond
+- (NSString *)cacheTheTimeStrWithTheSecond:(NSNumber *)theSecond WithFormatStr:(NSString *)formatStr
 {
     NSTimeInterval theTimeInterval = [theSecond doubleValue] / 1000;
     NSDate *date = [NSDate dateWithTimeIntervalSince1970:theTimeInterval];//发布时间
     
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-    [formatter setDateFormat:@"MM-dd HH：mm"];
+    [formatter setDateFormat:formatStr];
     NSString *result = [formatter stringFromDate:date];
     return result;
 }
 
-+ (NSString *)sendTheTimeStrWithTheSecond:(NSNumber *)theSecond
++ (NSString *)sendTheTimeStrWithTheSecond:(NSNumber *)theSecond WithFormatStr:(NSString *)formatStr
 {
     DateTool *dTool = [[DateTool alloc] init];
-    return [dTool cacheTheTimeStrWithTheSecond:theSecond];
+    return [dTool cacheTheTimeStrWithTheSecond:theSecond WithFormatStr:formatStr];
 }
 
 - (BOOL)cacheTheBoolOfNewWithTheSecond:(NSNumber *)theSecond
@@ -109,7 +109,7 @@
     NSDate *birthDate = [NSDate dateWithTimeIntervalSince1970:theTimeInterval];//birthDay
     NSString *birthYear = [formatter stringFromDate:birthDate];
     int resultNum = nowYear.intValue - birthYear.intValue;
-    NSString *resultStr = [NSString stringWithFormat:@"%d", resultNum];
+    NSString *resultStr = [NSString stringWithFormat:@"你今年%d岁", resultNum];
     
     return resultStr;
 }
@@ -122,10 +122,10 @@
 
 + (DateModel *)sendTheDateInfoByNow
 {
-    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     NSDate *now = [NSDate date];;
-    NSInteger unitFlags = NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit | NSWeekdayCalendarUnit |
-    NSHourCalendarUnit | NSMinuteCalendarUnit | NSSecondCalendarUnit;
+    NSInteger unitFlags = NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitWeekday |
+    NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond;
     NSDateComponents *comps = [calendar components:unitFlags fromDate:now];
     
     DateModel *dModel = [[DateModel alloc] init];
